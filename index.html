@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Testing</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=VT323&display=swap');
+
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: #0c0d2b;
+		}
+		.content{
+			/* background-color: green; */
+			font-family: "VT323", monospace;
+			text-align: center;
+			color: white;
+			position: absolute;
+			z-index: 999;
+			margin: 30px 0 0 50%; 
+			transform: translateX(-50%);
+		}
+		.content > .title{
+			font-family: 'Indie Flower', cursive;
+		}
+		.content > .score {
+			margin-top: 250px;
+		}
+		button{
+			font-family: 'Indie Flower', cursive;
+			margin-top: 30px;
+			width: 250px;
+			height: 50px;
+			color: white;
+			border : 1px solid yellow;
+			background-color: transparent;
+			border-radius: 20px;
+			
+			
+		}
+		button:hover{
+			cursor: pointer;
+			box-shadow: #9c983a 0px 0px 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="content">
+		<h1 class="title">Asep Space</h1>
+		<p>Kill all enemies and reach high score</p>
+
+		<h1 class="score">Score :</h1>
+		<button><p>Start</p></button>
+	</div>
+	
+<canvas></canvas>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
